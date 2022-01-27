@@ -11,7 +11,7 @@ We also provide the pre-trained model.
 
 |          |Arch | Setting | Epochs  | Accuracy | Download  |
 |----------|:----:|:---:|:---:|:---:|:---:|
-|  ReSSL | ResNet50 | 1% | 400  | 67.2 % | [simmatch-1p.pth](https://drive.google.com/file/d/1N-i7QwAyUuc862jm_nZLCKJL2cJCvbbD/view?usp=sharing) |
-|  ReSSL | ResNet50 | 10% | 400  | 74.4 % | [simmatch-10p.pth](https://drive.google.com/file/d/1Eeeqxixr9JtbrUmFDgRcf-tCWbPGnt2o/view?usp=sharing) |
+|  SimMatch | ResNet50 | 1% | 400  | 67.2 % | [simmatch-1p.pth](https://drive.google.com/file/d/1N-i7QwAyUuc862jm_nZLCKJL2cJCvbbD/view?usp=sharing) |
+|  SimMatch | ResNet50 | 10% | 400  | 74.4 % | [simmatch-10p.pth](https://drive.google.com/file/d/1Eeeqxixr9JtbrUmFDgRcf-tCWbPGnt2o/view?usp=sharing) |
 
 If you want to test the pre-trained model, please download the weights from the link above, and move them to the checkpoints folder. The evaluation scripts also have been provided in script/train.sh
