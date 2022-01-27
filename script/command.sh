@@ -2,9 +2,10 @@
 
 
 job_name=$1
-train_gpu=$2
-num_node=$3
-command=$4
+partition=$2
+train_gpu=$3
+num_node=$4
+command=$5
 total_process=$((train_gpu*num_node))
 
 mkdir -p log
@@ -15,7 +16,7 @@ port=$(( $RANDOM % 300 + 23450 ))
 
 # nohup
 GLOG_vmodule=MemcachedClient=-1 \
-srun --partition=pat_op \
+srun --partition=$partition \
 --mpi=pmi2 -n$total_process \
 --gres=gpu:$train_gpu \
 --ntasks-per-node=$train_gpu \

@@ -1,5 +1,4 @@
 *.swp
 **/__pycache__/**
 .vscode/**
-checkpoints/*
 log/
