@@ -19,3 +19,15 @@ We also provide the pre-trained model.
 |  SimMatch | ResNet50 | 10% | 400  | 74.4 % | [simmatch-10p.pth](https://drive.google.com/file/d/1Eeeqxixr9JtbrUmFDgRcf-tCWbPGnt2o/view?usp=sharing) |
 
 If you want to test the pre-trained model, please download the weights from the link above, and move them to the checkpoints folder. The evaluation scripts also have been provided in script/train.sh
+
+
+## Citation
+If you find that SimMatch interesting and help your research, please consider citing it:
+```
+@article{zheng2022simmatch,
+  title={SimMatch: Semi-supervised Learning with Similarity Matching},
+  author={Zheng, Mingkai and You, Shan and Huang, Lang and Wang, Fei and Qian, Chen and Xu, Chang},
+  journal={arXiv preprint arXiv:2203.06915},
+  year={2022}
+}
+```
