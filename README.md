@@ -6,6 +6,10 @@ For details see [SimMatch: Semi-supervised Learning with Similarity Matching](ht
 
 ![SimMatch](img/framework.png)
 
+## CIFAR10/100
+This repository is based on ImageNet dataset, We also provide the training code and logs for cifar10/100, please download it from [this link](https://drive.google.com/file/d/1S59Eyt2klV02xW4FS46Mcir4L2jsIjeR/view?usp=sharing).
+
+
 ## Reproducing
 To run the code, you probably need to change the Dataset setting (ImagenetPercentV2 function in dataset/imagenet.py), and Pytorch DDP setting (dist_init function in util/dist_utils.py) for your server environment.
 
