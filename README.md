@@ -28,10 +28,12 @@ If you want to test the pre-trained model, please download the weights from the 
 ## Citation
 If you find that SimMatch interesting and help your research, please consider citing it:
 ```
-@article{zheng2022simmatch,
-  title={SimMatch: Semi-supervised Learning with Similarity Matching},
-  author={Zheng, Mingkai and You, Shan and Huang, Lang and Wang, Fei and Qian, Chen and Xu, Chang},
-  journal={arXiv preprint arXiv:2203.06915},
-  year={2022}
+@InProceedings{Zheng_2022_CVPR,
+    author    = {Zheng, Mingkai and You, Shan and Huang, Lang and Wang, Fei and Qian, Chen and Xu, Chang},
+    title     = {SimMatch: Semi-Supervised Learning With Similarity Matching},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {14471-14481}
 }
 ```
