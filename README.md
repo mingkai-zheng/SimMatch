@@ -1,8 +1,8 @@
 # SimMatch: Semi-supervised Learning with Similarity Matching (CVPR2022)
 
-### We have recently released our SimMatchV2, please see more details in [paper](https://arxiv.org/abs/2308.06692) and [code](https://github.com/mingkai-zheng/SimMatchV2)
+### News!!! We have recently released our SimMatchV2, please see more details in [paper](https://arxiv.org/abs/2308.06692) and [code](https://github.com/mingkai-zheng/SimMatchV2)
 
-This repository contains PyTorch evaluation code, training code and pretrained models for SimMatch. Most of the code in this repository is adapt from [here](https://github.com/amazon-research/exponential-moving-average-normalization).
+This repository contains PyTorch evaluation code, training code and pretrained models for SimMatch. Most of the code in this repository is adapted from [here](https://github.com/amazon-research/exponential-moving-average-normalization).
 
 For details see [SimMatch: Semi-supervised Learning with Similarity Matching](https://arxiv.org/abs/2203.06915) by Mingkai Zheng, Shan You, Lang Huang, Fei Wang, Chen Qian, and Chang Xu
 
