@@ -39,10 +39,12 @@ If you find that SimMatch interesting and help your research, please consider ci
     pages     = {14471-14481}
 }
 
-@article{zheng2023simmatchv2,
-  title={SimMatchV2: Semi-Supervised Learning with Graph Consistency},
-  author={Zheng, Mingkai and You, Shan and Huang, Lang and Luo, Chen and Wang, Fei and Qian, Chen and Xu, Chang},
-  journal={arXiv preprint arXiv:2308.06692},
-  year={2023}
+@InProceedings{Zheng_2023_ICCV,
+    author    = {Zheng, Mingkai and You, Shan and Huang, Lang and Luo, Chen and Wang, Fei and Qian, Chen and Xu, Chang},
+    title     = {SimMatchV2: Semi-Supervised Learning with Graph Consistency},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {16432-16442}
 }
 ```
